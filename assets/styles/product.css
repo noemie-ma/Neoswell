@@ -1,0 +1,163 @@
+body {
+    margin: auto;
+    padding: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Montserra', sans-serif;
+    font-weight: 700;
+    color: #1e1e1e;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    color: #757575;
+}
+
+/* Main */
+
+.container{
+    width: 1400px;
+    margin: auto;
+}
+
+#product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    align-items: center;
+}
+
+.product-image{
+    justify-self: center;
+}
+
+.product-image > img{
+    width: 50vh;
+    object-fit: contain;
+}
+
+.logo > img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.product-description > h1, p{
+    margin: 10px 0;
+}
+
+h1{
+    font-size: 34px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.category{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #02542D;
+    font-weight: 400;
+    background-color: #CFF7D3;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.price{
+    font-family: 'Montserra', sans-serif;
+    color: #1e1e1e;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+button{
+    width: 100%;
+    padding: 8px;
+    background-color: #1A73E8;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Lato';
+    border: none;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #194cac;
+}
+
+/* Avis */
+
+#avis{
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+.avis{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.avis-content{
+    padding: 20px;
+    border: #D9D9D9 solid 1px;
+    border-radius: 8px;
+}
+
+h3{
+    font-size: 28px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.comments{
+    color: #1e1e1e;
+    font-size: 18px;   
+}
+
+@media screen and (max-width: 768px){
+    body{
+        width: auto;
+    }
+
+    .header{
+        padding: 0;
+    }
+
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+
+    #product{
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+
+    .product-image{
+        display: flex;
+        justify-self: center;
+    }
+
+    .product-image > img{
+        width: 50%;
+        margin: auto;
+        justify-self: center;
+    }
+
+    #avis{
+        padding: 0 20px;
+    }
+
+    .avis{
+        grid-template-columns: 1fr;
+    }
+    
+}

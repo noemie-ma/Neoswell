@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <title>Neoswell - Nos Produits</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Logo de Neoswell" />
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-item">Accueil</a></li>
+                    <li><a href="#" class="nav-item">Notre histoire</a></li>
+                    <li><a href="#" class="nav-item">Nos planches</a></li>
+                    <li><a href="#" class="nav-item">Panier</a></li>
+                    <li><a href="#" class="nav-item">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <section class="filters">
+                <h2>Filtres</h2>
+                <form>
+                    <div class="filter-section">
+                        <h4>Marques</h4>
+                        <div>
+                            <input type="checkbox" id="longboard" name="longboard" checked>
+                            <label for="longboard">Longboard</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ripcurl" name="ripcurl" checked>
+                            <label for="ripcurl">Rip Curl</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="billabong" name="billabong" checked>
+                            <label for="billabong">Billabong</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-section">
+                        <h4>Prix</h4>
+                        <p>0 - 250 €</p>
+                        <input type="range" min="0" max="100" value="50">
+                    </div>
+
+                    <div class="filter-section">
+                        <h4>Couleurs</h4>
+                        <div>
+                            <input type="checkbox" id="bleue" name="bleue" checked>
+                            <label for="bleue">Bleue</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="violette" name="violette" checked>
+                            <label for="violette">Violette</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="blanche" name="blanche" checked>
+                            <label for="blanche">Blanche</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-section">
+                        <h4>Taille</h4>
+                        <div>
+                            <input type="checkbox" id="taille5" name="taille5" checked>
+                            <label for="taille5">5</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="taille8" name="taille8" checked>
+                            <label for="taille8">8</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="taille9" name="taille9" checked>
+                            <label for="taille9">9 et +</label>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+            <section class="exposition">
+                <section class="search-section">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Rechercher" id="searchInput">
+                        <button type="submit"><img src="assets/icons/search.svg"> </button>
+                    </div>
+                    <div class="search-filters">
+                        <button type="submit">Nouveautés</button>
+                        <button type="submit">Prix croissants</button>
+                        <button type="submit">Prix décroissants</button>
+                        <button type="submit">Notation</button>
+                    </div>
+                </section>
+                <section class="planches-liste">
+                    <div class="planche">
+                        <img src="assets/images/billabong.jpg" alt="Planche Billabong">
+                        <h3>Billabong</h3>
+                        <p>25 €</p>
+                        <a href="product.html"><button type="submit">Voir le produit</button></a>
+                    </div>
+                    <div class="planche">
+                        <img src="assets/images/ripcurl.png" alt="Planche Rip Curl">
+                        <h3>Rip Curl</h3>
+                        <p>15 €</p>
+                        <a href="product.html"><button type="submit">Voir le produit</button></a>
+                    </div>
+                    <div class="planche">
+                        <img src="assets/images/tmishionwax.jpg" alt="Wax de la marque Tmishion">
+                        <h3>Tmishion Surf Wax</h3>
+                        <p>10 €</p>
+                        <a href="product.html"><button type="submit">Voir le produit</button></a>
+                    </div>
+                    <div class="planche">
+                        <img src="assets/images/bicsurf.jpg" alt="Planche Bic Surf">
+                        <h3>Bic Surf</h3>
+                        <p>45 €</p>
+                        <a href="product.html"><button type="submit">Voir le produit</button></a>
+                    </div>
+                    <div class="planche">
+                        <img src="assets/images/quicksilver.jpg" alt="Planche Quicksilver">
+                        <h3>Quicksilver</h3>
+                        <p>60 €</p>
+                        <a href="product.html"><button type="submit">Voir le produit</button></a>
+                    </div>
+                    <div class="planche">
+                        <img src="assets/images/longboard.jpg" alt="Planche Longboard">
+                        <h3>Longboard</h3>
+                        <p>110 €</p>
+                        <a href="product.html"><button type="submit">Voir le produit</button></a>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <nav class="footer-menu">
+            <div class="menu-header">
+                <h2 class="menu-title">Menu</h2>
+            </div>
+            <a href="#" class="menu-item">Accueil</a>
+            <a href="#" class="menu-item">Notre hstoire</a>
+            <a href="#" class="menu-item">Nos planches</a>
+            <a href="#" class="menu-item">Panier</a>
+            <a href="#" class="menu-item">Contact</a>
+        </nav>
+
+        <div class="logo-container">
+            <img src="assets/images/logo.png" alt="Logo de Neoswell" />
+        </div>
+
+        <div class="footer-content">
+            <h2>Retrouvez-nous sur nos réseaux sociaux </h2>
+            <div class="social-icons">
+                <a href="#" aria-label="Twitter">
+                    <img src="assets/icons/x.svg" class="social-icon" alt="Logo X ex twitter" />
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <img src="assets/icons/instagram.svg" class="social-icon" alt="Logo d'Instagram" />
+                </a>
+                <a href="#" aria-label="Youtube">
+                    <img src="assets/icons/youtube.svg" class="social-icon" alt="Logo de Youtube" />
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <img loading="lazy" src="assets/icons/linkedin.svg" class="social-icon" alt="Logo de LinkedIn" />
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
